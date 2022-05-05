@@ -57,14 +57,17 @@ public class MainPanel extends JPanel implements ActionListener {
 
          mod = new JButton("Mod");
          mod.setBounds(10,160, 128,16);
+         mod.addActionListener(this);
          this.add(mod);
 
          externalfile = new JButton("ExternalFile");
          externalfile.setBounds(36,160, 128,16);
+         externalfile.addActionListener(this);
          this.add(externalfile);
 
          mcp = new JButton("MCP");
          mcp.setBounds(62,160, 128,16);
+         mcp.addActionListener(this);
          this.add(mcp);
 
          ///TODO Placement et dimentionnement des bouton + add Actionlistener
